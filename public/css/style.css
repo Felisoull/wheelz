@@ -1,0 +1,420 @@
+* {
+    max-width: 100%;
+}
+
+.land {
+    position: relative;
+    width: 100%;
+    height: 756px;
+}
+
+.text_land {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    margin-left: 300px;
+    margin-top: 200px;
+    letter-spacing: 5px;
+    hyphens: auto;
+    width: 800px;
+}
+
+.land button {
+    margin: 50px 0;
+    padding: 1rem 1.5rem;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    background-color: #335B4C;
+    color: white;
+    border-radius: 0px;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+h1 {
+    text-align: center;
+    padding: 80px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration-color: #335B4C;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+}
+
+.navbar-collapse {
+    width: 1430px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-collapse img {
+    width: 170px;
+}
+
+.navbar li {
+    margin: 0rem 1.5rem;
+}
+
+
+
+.contact_land {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 2rem;
+
+}
+
+.contact_text_land {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    margin-left: 300px;
+    margin-top: 100px;
+    letter-spacing: 5px;
+    hyphens: auto;
+    width: 800px;
+}
+
+.contact_container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1200px;
+    background-color: #D5F0E6;
+    color: #335B4C;
+
+
+}
+
+iframe {
+    font-family: 'Nunito', sans-serif;
+}
+
+.contacts {
+    font-size: 18px;
+}
+
+.contacts li {
+    display: flex;
+    align-items: self-start;
+    list-style: none;
+
+}
+
+.contacts p {
+    margin-left: 10px;
+
+}
+
+hr {
+    width: 600px;
+    color: #335B4C;
+
+}
+
+
+.contacts ul {
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.contact_icon p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.icons {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.condition_land {
+    position: relative;
+    width: 100%;
+    height: 364px;
+    margin-bottom: 2rem;
+
+}
+
+.condition_text_land {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    margin-left: 300px;
+    margin-top: 100px;
+    letter-spacing: 5px;
+    hyphens: auto;
+    width: 800px;
+}
+
+.docs_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.docs {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.docs_1 {
+    width: 40%;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: #335B4C;
+
+}
+
+.card-body {
+    position: absolute;
+    height: 70px;
+}
+
+.card-body p {
+    text-align: left;
+    font-size: 24px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.min_cond {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.min_cond img {
+    width: 500px;
+}
+
+.min_img {
+    width: 500px;
+}
+
+.min p {
+    margin: auto;
+    color: white;
+}
+
+.answers {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.an {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+}
+
+.ans {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ans1 {
+    width: 40%;
+}
+
+.antext1 {
+    background-color: #C0D1CB;
+    padding: 1.5rem;
+    border-radius: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.categories_list {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    text-align: center;
+}
+
+.categories_list a {
+    outline: none;
+    text-decoration: none;
+    color: #335B4C;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.categories_list img {
+    height: 40px;
+}
+
+.cars {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.card_car {
+    margin: auto;
+    position: relative;
+    padding: 1rem;
+}
+
+.card_car img {
+    width: 600px;
+    height: 350px;
+}
+
+.car_title {
+    position: absolute;
+    background-color: #0000008f;
+    width: 590px;
+    color: white;
+    padding: 0.5rem;
+}
+
+.car_name {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.car_price {
+    font-family: 'Nunito', sans-serif;
+    font-weight: light;
+}
+
+.car_link:hover {
+    zoom: 1px;
+}
+
+
+.car_show {
+    background-color: #161a20;
+    color: #ffffff;
+    padding: 1.9rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 150px;
+
+
+}
+
+.show_text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+
+}
+
+.show_name {
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+}
+
+.show_year {
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.show_fuel {
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.show_eng {
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.show_power {
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.carous {
+    margin: auto;
+    background-color: #161a20;
+
+}
+
+#carouselExampleIndicators img {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.order_button button {
+    color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 0;
+    font-size: 18px;
+
+}
+
+.order_width {
+    margin: auto;
+
+}
+
+.show_price {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+form {
+    width: 100%;
+    float: center;
+    color: white;
+
+
+}
+
+.login_page {
+    margin: auto;
+    position: relative;
+}
+
+.login_page h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 40px;
+    padding: 4rem;
+    margin-top: 7rem;
+}
+
+.login_page form {
+    position: absolute;
+    margin: auto;
+
+
+}
+
+.login_page img {
+    position: absolute;
+}
+
+.login_page input {
+    max-width: 650px;
+}
+.btn-link{
+    color: white;
+    text-decoration: none;
+}
+
+.success{
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
