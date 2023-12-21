@@ -11,7 +11,7 @@ use Storage;
 
 class CategoryController extends Controller
 {
-  private const BB_VALIDATOR = [
+  private const CAR_VALIDATOR = [
     'title' => 'required|max:50',
     'image' => 'required'];
   public function index()
@@ -36,13 +36,19 @@ class CategoryController extends Controller
       $request->image->move(public_path('/images/'), $filename);
     }
     // Category::create($data);
-
+    $validated = $request->validate(self::CAR_VALIDATOR);
     $category = Category::create(
       [
-        'title' => $request->title,
-        'image' => $filename
+        'title' =>  $validated['title'],
+        'image' => $validated['image']
       ]);
     return redirect()->back();
+  }
+  
+  public function destroy(Category $category)
+  {
+    $category ->delete();
+    return redirect()->route('admin.index');
   }
 }
 

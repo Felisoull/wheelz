@@ -20,12 +20,7 @@ return new class extends Migration
             $table->string('fuel');
             $table->string('price');
             $table->string('image_1');
-            $table->string('image_2');
-            $table->string('image_3');
             $table->timestamps();
-
-            $table->softDeletes();
-
             $table->unsignedBigInteger('category_id')->nullable;
             $table->index('category_id', 'car_category_idx');
             $table->foreign('category_id', 'car_category_fk')->on('categories')->references('id');
@@ -42,3 +37,4 @@ return new class extends Migration
         Schema::dropIfExists('cars');
     }
 };
+

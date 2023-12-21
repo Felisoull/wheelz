@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-<div>
+<div class="mb-3">
 
 
     <div class="land_category">
@@ -9,10 +9,14 @@
         <div class="categories_list container">
             @if($categories )
             @foreach($categories as $category)
-            <a href="{{route('carByCategory', $category->id)}}" class="category_main">
-                <img src="{{$category->image}}" alt="">
-                <div class="m-3">{{$category->title}}</div>
-            </a>
+            <div>
+                <a href="{{route('carByCategory', $category->id)}}" class="category_main">
+                    <img src="{{$category->image}}" alt="">
+                    <div class="m-3">{{$category->title}}
+
+                    </div>
+                </a>
+            </div>
             @endforeach
             @endif
         </div>
@@ -30,8 +34,9 @@
             </div>
         </a>
         @endforeach
+        {{$cars->withQueryString()->links('pagination::bootstrap-5') }}
     </div>
-</div>
 
+</div>
 
 @endsection

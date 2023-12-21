@@ -47,9 +47,10 @@
 
         </div>
         <div class="order_button">
-            <button type="button" class="btn">АРЕНДОВАТЬ</button>
+            <a class="btn btn-outline-light" href="{{route('order.create',['car' => $car->id])}}">Арендовать</a>
         </div>
     </div>
+
 
 </div>
 @endsection

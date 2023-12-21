@@ -8,10 +8,10 @@
         @csrf
         <h1>Авторизация</h1>
         <div class="row mb-3">
-            <label for="email" class="col-md-4 col-form-label text-md-end"></label>
+            <label for="email" class="col-md-4 col-form-label text-md-end">Email</label>
 
             <div class="col-md-6">
-                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email"
+                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror input-box-shadow:red" name="email"
                     value="{{ old('email') }}" required autocomplete="email" autofocus>
 
                 @error('email')
@@ -23,7 +23,7 @@
         </div>
 
         <div class="row mb-3">
-            <label for="password" class="col-md-4 col-form-label text-md-end"></label>
+            <label for="password" class="col-md-4 col-form-label text-md-end">Пароль</label>
 
             <div class="col-md-6">
                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror"
@@ -44,21 +44,21 @@
                         ? 'checked' : '' }}>
 
                     <label class="form-check-label" for="remember">
-                        {{ __('Remember Me') }}
+                        Запомнить меня
                     </label>
                 </div>
             </div>
         </div>
 
         <div class="row mb-0">
-            <div class="col-md-12 offset-md-4">
-                <button type="submit" class="btn btn-dark">
-                    {{ __('Login') }}
+            <div class="col-md-6 offset-md-4">
+                <button type="submit" class="btn btn-light">
+                  Авторизоваться
                 </button>
 
                 @if (Route::has('password.request'))
                 <a class= href="{{ route('password.request') }}">
-                    {{ __('Forgot Your Password?') }}
+                    Забыли пароль?
                 </a>
                 @endif
             </div>
@@ -66,5 +66,4 @@
     </form>
 
 </div>
-
 @endsection

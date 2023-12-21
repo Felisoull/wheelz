@@ -55,11 +55,15 @@ form {
     width: 170px;
 }
 
-.navbar li {
-    margin: 0rem 1.5rem;
+.nav-item {
+    padding: 0px 30px;
+    white-space: nowrap;
 }
 
-
+.nav-item a {
+    text-decoration: none;
+    color: #161a20;
+}
 
 .contact_land {
     position: relative;
@@ -253,6 +257,10 @@ h2 {
     font-size: 20px;
 }
 
+.categories_list input {
+    font-size: 8px;
+}
+
 .categories_list img {
     height: 40px;
 }
@@ -271,14 +279,14 @@ h2 {
 }
 
 .card_car img {
-    width: 600px;
+    width: 580px;
     height: 350px;
 }
 
 .car_title {
     position: absolute;
     background-color: #0000008f;
-    width: 590px;
+    width: 580px;
     color: white;
     padding: 0.5rem;
 }
@@ -292,10 +300,6 @@ h2 {
 .car_price {
     font-family: 'Nunito', sans-serif;
     font-weight: light;
-}
-
-.car_link:hover {
-    zoom: 1px;
 }
 
 
@@ -361,7 +365,6 @@ h2 {
     border-color: #ffffff;
     border-radius: 0;
     font-size: 18px;
-
 }
 
 .order_width {
@@ -378,8 +381,6 @@ form {
     width: 100%;
     float: center;
     color: white;
-
-
 }
 
 .login_page {
@@ -397,8 +398,6 @@ form {
 .login_page form {
     position: absolute;
     margin: auto;
-
-
 }
 
 .login_page img {
@@ -408,13 +407,167 @@ form {
 .login_page input {
     max-width: 650px;
 }
-.btn-link{
+
+.btn-link {
     color: white;
     text-decoration: none;
 }
 
-.success{
+.success {
     font-size: 40px;
     font-family: 'Nunito', sans-serif;
     text-align: center;
+}
+
+.login_page a {
+    color: #ffffff;
+    padding-left: 50px;
+}
+
+.order {
+    width: 100%;
+    margin: auto;
+}
+
+.order form {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.form-outline {
+    color: white;
+}
+
+.order select {
+    max-width: 650px;
+}
+
+
+
+.categories_lis {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    text-align: center;
+}
+
+.categories_lis a {
+    outline: none;
+    text-decoration: none;
+    color: #335B4C;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.categories_lis input {
+    font-size: 8px;
+}
+
+.categories_lis img {
+    height: 40px;
+}
+
+.carss {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.car_car {
+    margin: auto;
+    position: relative;
+    padding: 1rem;
+}
+
+.car_car img {
+    width: 250px;
+    height: 170px;
+}
+
+.car_titl {
+    position: absolute;
+    background-color: #0000008f;
+    width: 250px;
+    color: white;
+    padding: 0.5rem;
+}
+
+.car_nam {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.car_price {
+    font-family: 'Nunito', sans-serif;
+    font-weight: light;
+}
+
+i {
+    font-size: 20px;
+}
+
+.admin_link {
+    text-decoration: none;
+    color: #161a20;
+    font-size: 25px;
+}
+
+.admin_link i {
+    color: #31af81;
+    margin-left: 10px;
+}
+
+.red i {
+    color: red;
+}
+
+.editcar i {
+    width: 100px;
+    color: #31af81;
+}
+
+.car_links {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orders {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+
+}
+
+
+.order_card {
+    margin: auto;
+    border: 1px solid #335B4C;
+    width: 300px;
+    font-family: 'Nunito', sans-serif;
+    padding: 1rem;
+}
+.sitemap{
+    color: #161a20;
+    font-family: 'Nunito', sans-serif;
+}
+.sitemap a{
+    color: #161a20;
+    font-size: 25px;
+}
+.create_page{
+    margin: auto;
+    width: 800px;
+}
+.create_page h1{
+    color: #161a20;
+}
+.footer{
+    height: 60px;
+    background-color: #a8b3af;
+    height: 80px;
+
+
 }

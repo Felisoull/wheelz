@@ -9,8 +9,12 @@ class Car extends Model
 {
     use HasFactory;
     use SoftDeletes;
-
-
     protected $table = 'cars';
     protected $guarded = [];
+
+
+    public function order() {
+        return $this->hasMany(Order::class);
+        }
+
 }

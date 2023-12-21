@@ -20,7 +20,7 @@ class AutoController extends Controller
 
         return view('auto', [
             'categories'=> $categories,
-            'cars'=>$cars->get()
+            'cars'=>$cars->paginate(6)
         ]);
     }
 
